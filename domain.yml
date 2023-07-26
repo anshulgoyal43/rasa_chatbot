@@ -1,0 +1,96 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - admission
+  - admission_date
+  - holiday_query
+  - syllabus_query
+  - nv_sir
+  - batch_shuffle
+  - refund
+  - center_transfer
+  - offline_to_online
+  - drona_query
+  - board_classes
+  - counseling
+  - school_admission
+  - star_batch
+  - nlu_fallback
+
+actions:
+  - action_store_question
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  
+  utter_admission:
+  - text: "To take admission visit this link"
+
+  utter_admission_date:
+  - text: "May the 4th"
+
+  utter_syllabus_query:
+  - text: "Syllabus end around mid december, then revision classes will start"
+
+  utter_holiday_query:
+  - text: "Holidays are for Diwali eid and national holidays like independece day"
+
+  utter_NV_sir:
+  - text: "NV_sir only teaches star_batch"
+
+  utter_batch_shuffle:
+  - text: "Batch will shuffle only once after major test"
+
+  utter_star_batch:
+  - text: "To be in star batch you need to score 68%"
+
+  utter_school_admission:
+  - text: "Just visit the school"
+
+  utter_counseling:
+  - text: "Talk to a counselor"
+
+  utter_board_classes:
+  - text: "Board classes will start when september ends"
+
+  utter_drona_query:
+  - text: "Drona Hostel is free of cost"
+
+  utter_offline_to_online:
+  - text: "You simply can't"
+
+  utter_refund:
+  - text: "Why do you need a refund?"
+  
+  utter_center_transfer:
+  - text: "Which center do you want?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_unknown:
+  - text: "I don't have the answer for this"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

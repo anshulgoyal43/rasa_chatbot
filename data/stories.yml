@@ -1,0 +1,74 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: admission
+  - action: utter_admission
+
+
+- story: happy path 1
+  steps:
+  - intent: admission_date
+  - action: utter_admission_date
+
+
+- story: happy path 2
+  steps:
+  - intent: syllabus_query
+  - action: utter_syllabus_query
+
+- story: happy path 3
+  steps:
+  - intent: holiday_query
+  - action: utter_holiday_query
+
+- story: happy path 4
+  steps:
+  - intent: nv_sir
+  - action: utter_NV_sir
+
+- story: happy path 5
+  steps:
+  - intent: batch_shuffle
+  - action: utter_batch_shuffle
+
+- story: happy path 6
+  steps:
+  - intent: star_batch
+  - action: utter_star_batch
+
+- story: happy path 7
+  steps:
+  - intent: school_admission
+  - action: utter_school_admission
+ 
+- story: happy path 8
+  steps:
+  - intent: counseling
+  - action: utter_counseling
+  
+- story: happy path 9
+  steps:
+  - intent: board_classes
+  - action: utter_board_classes
+  
+- story: happy path 10
+  steps:
+  - intent: drona_query
+  - action: utter_drona_query
+  
+- story: happy path 11
+  steps:
+  - intent: offline_to_online
+  - action: utter_offline_to_online
+  
+- story: happy path 12
+  steps:
+  - intent: center_transfer
+  - action: utter_center_transfer
+  
+- story: happy path 13
+  steps:
+  - intent: refund
+  - action: utter_refund

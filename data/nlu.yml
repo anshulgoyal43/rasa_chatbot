@@ -1,0 +1,161 @@
+version: "3.1"
+
+nlu:
+- intent: admission
+  examples: |
+    - What is the Admission process?
+    - How to take admission?
+
+- intent: admission_date
+  examples: |
+    - When is the new batch starting?
+    - What is the new batch date?
+
+- intent: syllabus_query
+  examples: |
+    - When will the syllabus be over?
+    - When will the syllabus be completed?
+
+- intent: holiday_query
+  examples: |
+    - Will there be any Holidays in Mid-Session?
+    - Will there be any holiday after the session?
+    - When will be the holiday for Diwali?
+
+- intent: nv_sir
+  examples: |
+    - Will NV sir be taking Classes or not?
+    - Who is NV sir?
+
+- intent: batch_shuffle
+  examples: |
+    - When does batch shuffle happen?
+    - When will batch shuffle happen?
+
+- intent: refund
+  examples: |
+    - What is the process to apply for the refund?
+    - When will the refund be done?
+
+- intent: center_transfer
+  examples: |
+    - What is the process of transfer from one center to another center?
+    - When I can transfer my center?
+
+- intent: offline_to_online
+  examples: |
+    - What is the process of transfer from Offline program to Online Program?
+    - How can I transfer from offline to online?
+
+- intent: drona_query
+  examples: |
+    - What is the Fee for Drona Hostel ?
+    - Can student have food in Drona Mess who is living in PG or Other Hostel?
+
+- intent: board_classes
+  examples: |
+    - When will the 12th Board Classes start?
+    - When will the 12th Board Classes end?
+
+- intent: counseling
+  examples: |
+    - What is the process for college counseling ?
+    - Whom to talk to for college counseling?
+
+- intent: school_admission
+  examples: | 
+    - What is the process to get Admission in School?
+    - Which school I should take admission in ?
+
+- intent: star_batch
+  examples: |
+    - How many marks are required to get into the Star-Batch?
+    - What is the process for getting into the Star-Batch?  
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
